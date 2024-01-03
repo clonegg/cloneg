@@ -2,65 +2,97 @@
 <head>
 <meta charset="UTF-8" />
 <title>Александр Ледаков</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-<table>
-<tr>
-<td><img src="Alexander.jpeg" width="200" alt="Aleksandr Ledakov">
-</td>
-<td>
+<body>  
+<div class="container">
+    <div class="info">
+<img src="Alexander.jpeg" alt="Aleksandr Ledakov" class="avatar"/>
+   
+    <div class="info-text">
 <h1>Александр Ледаков</h1>
-<p><em>Я знаменитый шахматист который выиграл билеты на <strong>Oxymiron</strong></em></p>
-<p>С легкостью обучу Ваших детей шахмотной граммоте</p>
-</td>
-</tr>        
-</table>
-<tr>
-<hr>
-<h2>Мои социальные сети</h2>
-<ul>
-    <li><a href="https://vk.com/simf_event_coach" target="_blank">ВК</a></li>
-</ul>
-</tr>
+<p>Я знаменитый шахматист который выиграл билеты на <strong>Oxymiron</strong></p>
+<h4>Мои социальные сети</h4>
+
+<a href="https://vk.com/simf_event_coach" target="_blank">Vkonakte</a>
+|
+<a href="https://www.facebook.com/profile.php?id=100012661453486&mibextid=9R9pXO" target="_blank">Facebook</a>
+</div>
+
+</div>
+
+<div class="card bg-yellow">
 <h2>Мои хобби</h2>
-<ol>
+<ol class="list">
+
     <li>Недоблоггер</li>
     <li>Мусорки</li>
     <li>Ставки на спорт</li>
     <li>Шахматы</li>
 </ol>
-</tr>
-<h2>Мои достижения</h2>
-<table border="2">
-    <thead>
-        <th>31</th>
-        <th>500+</th>
-           </thead>
-    <tbody> 
-        <tr>
-        <td>197/558. 56/88</td>
-        <td>115/214, 119/214, 103/168; 1/1; 1; +22, +5, +22; 0/0, 0/0</td>
-    </tr>
-    </tbody>
-     
-</table>
-<h2>Мои онайлн видео</h2>
-<a href="online video.html">Look to it</a>
+</div>
 
-<hr>
+
+<div class="card bg-green">
+<h2>Опыт работы</h2>
+<table class="table">
+   
+    <tr>
+    <td>Антикафе "Столица"</td>
+    <td>Руководитель компании</td>
+    <td>2015 - 2016</td>
+</tr>
+<tr>
+    <td>Event company ABI GROUP</td>
+    <td>Руководитель компании</td>
+    <td>2015 - 2016</td>
+      </tr>
+<tr>
+<td>Безработный</td>
+<td>Безработный</td>
+<td>2016 - now </td>
+</tr>      
+</table>
+</div>
+
+<div class="card bg-red">
+<h2>Видео контент</h2>
+<ul>
+<li><a href="https://vk.com/video16688700_164735711?access_key=fa7d1a56876c245557">Приключение в мусорке</a></li>
+<li><a href="https://vk.com/video16688700_164412846?access_key=4a000cdac2103f04b0">Фристайл</a></li>
+<li><a href="https://vk.com/video16688700_164412845?access_key=bc68325866306e5a3d">Фристал парт 2</a></li>
+</ul>
+</div>
+
+<div class="contact">
 <h2>Связаться со мной</h2>
-<form action="index.html">
-    <label for="name">Введите Ваше имя:</label>
-    <input type="text" id="name"
-    placeholder="Тут должно быть имя...">
-    <br>
-    <label for="email">Введите Ваш имейл:</label>
-    <input type="email" id="email" placeholder="Тут должен быть имейл...">
-<br>
-<label for="text">Тут должно быть Ваше сообщение</label>
+
+<form action="/">
+    <div class="row">
+      <div class="form-group">
+    <label for="name">Ваше имя:</label>
+    <input type="text" id="name" placeholder="Введите ваше имя...">
+</div>
+
+<div class="form-group">
+    <label for="email">Ваш email:</label>
+    <input type="email" id="email" placeholder="Введите email...">
+</div>
+</div>
+<div class="form-group">
+<label for="text">Ваше сообщение</label>
 <textarea id="text" rows="2" cols="25"></textarea>
-<br>
-<input type="submit" value="Послать">
+</div>
+
+<input class="btn" type="submit" value="Связаться">
 </form>
+</div>
+</div>
+
+<div class="position">
+    <div class="box"></div>
+    </div>
+
 
 </body>
 </html>
